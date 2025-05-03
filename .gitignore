@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Lambda deployment packages
+*.zip
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Local .terraform plugins
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+
+# Ignore variable overrides and sensitive files
+terraform.tfvars
+terraform.tfvars.json
+
+# Mac OS and Linux system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Python virtualenv
+venv/
+.env/
+
+.DS_Store
