@@ -22,4 +22,10 @@ module "ses" {
 
 }
 
+module "eventbridge" {
+  source = "./modules/eventbridge"
+
+  lambda_function_name = module.lambda_email.lambda_function_name
+  lambda_function_arn  = module.lambda_email.lambda_function_arn
+}
 

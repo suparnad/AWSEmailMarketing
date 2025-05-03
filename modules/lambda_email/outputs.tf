@@ -12,3 +12,7 @@ output "lambda_function_name" {
   description = "Name of the Lambda function"
   value       = aws_lambda_function.terraform_lambda_func.function_name
 }
+
+output "lambda_function_arn" {
+  value = aws_lambda_function.terraform_lambda_func.arn
+}
