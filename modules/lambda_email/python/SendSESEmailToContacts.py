@@ -45,9 +45,6 @@ def lambda_handler(event, context):
                     }
                 }
             )
-            print("Sending to:", contact['Email'])
-            print("Subject:", EMAIL_SUBJECT)
-            print("HTML Content Preview:", personalised_email[:500])  # Preview first 500 chars
 
             print(f"Email sent to {contact['Email']}: MessageId={response['MessageId']}")
 
