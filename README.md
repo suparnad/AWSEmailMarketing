@@ -8,6 +8,8 @@ This is a simple, serverless email marketing system built using **AWS** and **Te
 
 I built this for my **food blog** to send out a weekly newsletter to my subscribers with recipe ideas and seasonal cooking tips. Instead of using a paid email tool, I built a **cost-effective and automated solution** using AWS.
 
+For more details click on <a href="https://medium.com/@suparnadebnath/a-simple-serverless-email-marketing-app-on-aws-using-terraform-47e9c6196bb5">Full blog post</a>
+
 ---
 
 ## Technologies Used
